@@ -1,0 +1,108 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+
+  "header-layout.desktop": {
+    "children": ["sticky-layout#desktop"]
+  },
+
+  "header-layout.mobile": {
+    "children": ["sticky-layout#mobile"]
+  },
+
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#desktop"]
+  },
+
+  "sticky-layout#mobile": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#mobile"]
+  },
+
+  "flex-layout.row#desktop": {
+    "children": [
+      "flex-layout.col#logo",
+      "flex-layout.col#search-bar",
+      "flex-layout.col#minicart"
+    ]
+  },
+
+  "flex-layout.row#mobile": {
+    "children": [
+      "flex-layout.col#logo",
+      "flex-layout.col#search-bar",
+      "flex-layout.col#minicart"
+    ],
+    "props": {
+      "blockClass": "header"
+    }
+  },
+
+  "flex-layout.col#logo": {
+    "props": {
+      "verticalAlign": "middle",
+      "width": "100%",
+      "preventVerticalStretch": true
+    },
+    "children": ["logo"]
+  },
+
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://yt3.ggpht.com/ytc/AKedOLRBXcx7abRjM3FJloDD2ayEPdDXRB9LoKoYemF3=s88-c-k-c0x00ffffff-no-rj",
+      "width": "40"
+    }
+  },
+
+  "flex-layout.col#search-bar": {
+    "props": {
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "children": ["search-bar"]
+  },
+
+  "flex-layout.col#minicart": {
+    "props": {
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "children": ["minicart.v2"]
+  }
+
+  // "header-layout.mobile": {
+  //   "children": ["sticky-layout#desktop"]
+  // },
+  // "sticky-layout#mobile": {
+  //   "children": ["flex-layout.row#mobile"]
+  // },
+  // "flex-layout.row#mobile": {
+  //   "children": [
+  //     "drawer",
+  //     "logo",
+  //     // "flex-layout.col#spacer",
+  //     "login",
+  //     "minicart.v2"
+  //   ],
+  //   "props": {
+  //     "blockClass": "main-header-mobile",
+  //     "preventHorizontalStretch": true,
+  //     "preserveLayoutOnMobile": true,
+  //     "fullWidth": true
+  //   }
+  // },
+  // "drawer": {
+  //   "children": []
+  // }
+}
