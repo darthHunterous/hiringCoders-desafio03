@@ -1,0 +1,11 @@
+.listContainer {
+  background-color: #212121;
+}
+
+/* .listItem:hover {
+  background-color: #303030;
+} */
+
+.listItemActive {
+  background-color: #4eb816;
+}

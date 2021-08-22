@@ -33,7 +33,10 @@
       "flex-layout.col#logo",
       "flex-layout.col#search-bar",
       "flex-layout.col#minicart"
-    ]
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
   },
 
   "flex-layout.row#mobile": {
@@ -43,7 +46,8 @@
       "flex-layout.col#minicart"
     ],
     "props": {
-      "blockClass": "header"
+      "blockClass": "header",
+      "preserveLayoutOnMobile": true
     }
   },
 
