@@ -35,7 +35,8 @@
       "flex-layout.col#minicart"
     ],
     "props": {
-      "preserveLayoutOnMobile": true
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
     }
   },
 
@@ -47,7 +48,8 @@
     ],
     "props": {
       "blockClass": "header",
-      "preserveLayoutOnMobile": true
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
     }
   },
 
