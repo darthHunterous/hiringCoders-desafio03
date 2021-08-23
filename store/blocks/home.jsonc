@@ -3,6 +3,7 @@
     "blocks": ["tab-layout#home", "rich-text"]
   },
 
+  /* Tab Layout BEGIN */
   "tab-layout#home": {
     "children": ["tab-list#home", "tab-content#home"],
     "props": {
@@ -54,6 +55,7 @@
       "tabId": "home2"
     }
   },
+  /* Tab Layout END */
 
   "rich-text": {
     "props": {
