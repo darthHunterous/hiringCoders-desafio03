@@ -1,6 +1,26 @@
 {
-  "typeScale": [3, 2.25, 1.5, 1.25, 1, 0.875, 0.75],
-  "spacing": [0.125, 0.25, 0.5, 0.75, 1, 1.5, 2, 3, 4, 8, 16],
+  "typeScale": [
+    3,
+    2.25,
+    1.5,
+    1.25,
+    1,
+    0.875,
+    0.75
+  ],
+  "spacing": [
+    0.125,
+    0.25,
+    0.5,
+    0.75,
+    1,
+    1.5,
+    2,
+    3,
+    4,
+    8,
+    16
+  ],
   "customMedia": [
     {
       "s": 20
@@ -62,7 +82,7 @@
       "base--inverted": "#4eb816",
       "action-primary": "#4eb816",
       "action-secondary": "#eef3f7",
-      "emphasis": "#f71963",
+      "emphasis": "#4eb816",
       "disabled": "#f2f4f5",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -112,7 +132,7 @@
       "action-primary": "#ffffff",
       "action-secondary": "#eef3f7",
       "link": "#4eb816",
-      "emphasis": "#f71963",
+      "emphasis": "#4eb816",
       "disabled": "#979899",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -154,7 +174,7 @@
     "border": {
       "action-primary": "#4eb816",
       "action-secondary": "#eef3f7",
-      "emphasis": "#f71963",
+      "emphasis": "#4eb816",
       "disabled": "#e3e4e6",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -242,11 +262,46 @@
       "warning--faded": "#1a1a1a"
     }
   },
-  "borderWidths": [0, 0.125, 0.25, 0.5, 1, 2],
-  "borderRadius": [0, 0.125, 0.25, 0.5, 1],
-  "widths": [1, 2, 4, 8, 16],
-  "maxWidths": [1, 2, 4, 8, 16, 32, 48, 64, 96],
-  "heights": [1, 2, 4, 8, 16],
+  "borderWidths": [
+    0,
+    0.125,
+    0.25,
+    0.5,
+    1,
+    2
+  ],
+  "borderRadius": [
+    0,
+    0.125,
+    0.25,
+    0.5,
+    1
+  ],
+  "widths": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "maxWidths": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    48,
+    64,
+    96
+  ],
+  "heights": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
   "sizes": [
     {
       "name": "small",
@@ -262,7 +317,11 @@
     }
   ],
   "typography": {
-    "measure": [30, 34, 20],
+    "measure": [
+      30,
+      34,
+      20
+    ],
     "styles": {
       "heading-1": {
         "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
@@ -357,5 +416,19 @@
       }
     }
   },
-  "opacity": [1, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1, 0.05, 0.025, 0]
+  "opacity": [
+    1,
+    0.9,
+    0.8,
+    0.7,
+    0.6,
+    0.5,
+    0.4,
+    0.3,
+    0.2,
+    0.1,
+    0.05,
+    0.025,
+    0
+  ]
 }
