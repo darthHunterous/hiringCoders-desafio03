@@ -1,6 +1,6 @@
 {
   "store.home": {
-    "blocks": ["tab-layout#home", "rich-text"]
+    "blocks": ["tab-layout#home", "slider-layout#text-test", "rich-text"]
   },
 
   /* Tab Layout BEGIN */
@@ -56,6 +56,34 @@
     }
   },
   /* Tab Layout END */
+
+  /* Slider Layout BEGIN */
+  "slider-layout#text-test": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": ["image#image1", "image#image2"]
+  },
+
+  "image#image1": {
+    "props": {
+      "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/6iibxhv7jzzdn2749uhoxub2fdjf?response-content-disposition=inline%3B%20filename%3D%22BANNER-WOOD.png%22%3B%20filename%2A%3DUTF-8%27%27BANNER-WOOD.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210823%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210823T023241Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=f3bcddd3d8d1015d48376e9f9963d54d2f4cb0f0e9a4b5643afb842e37a167a8"
+    }
+  },
+
+  "image#image2": {
+    "props": {
+      "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/du3k6akoks0u3xe322aypnaaal8e?response-content-disposition=inline%3B%20filename%3D%22W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png%22%3B%20filename%2A%3DUTF-8%27%27W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210823%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210823T023241Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=ae41055659657d0aa28378462b14196bb2ce6d37aafeaff7a4fedd17d566ce8e"
+    }
+  },
+  /* Slider Layout END */
 
   "rich-text": {
     "props": {
